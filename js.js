@@ -47,7 +47,8 @@ console.log("Opción incorrecta, por favor elija entre carne, pescado o verdura.
 const reaccion = ["😜","💀","😭","😝","🥱","😴","🥶",];
 for(let i=0; i<reaccion.length; i++) {
 console.log("Mi reacción es: " + reaccion[i]);
-reaccion[7] = "manzana";
+reaccion[7] = "🍆";
+reaccion[8] = "🛵";
 console.log("Mi reacción es: " + reaccion[i]);}
 
 //Ejercicio 4 Clase 11
