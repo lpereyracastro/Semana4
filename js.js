@@ -44,6 +44,13 @@ console.log("Opción incorrecta, por favor elija entre carne, pescado o verdura.
 }
 
 //Ejercicio 3 Clase 11
+const reaccion = ["😜","💀","😭","😝","🥱","😴","🥶",];
+for(let i=0; i<reaccion.length; i++) {
+console.log("Mi reacción es: " + reaccion[i]);
+reaccion[7] = "manzana";
+console.log("Mi reacción es: " + reaccion[i]);}
+
+//Ejercicio 4 Clase 11
 let n = 0;
 while (n < 11) {
     console.log("El numero es más chico que 11");
